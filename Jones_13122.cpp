@@ -9,5 +9,9 @@ int main()
   for (int j=0; j<m; j++)
   {
   }
+  if (i == j)
+    cout << "Congratulations! You found a match! Do you want to play again or exit?" << endl;
+  else
+    cout << "Not a match. Try again" << endl;
   return 0;
 }
